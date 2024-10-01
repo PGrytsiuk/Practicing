@@ -8,7 +8,7 @@ public class PolindromTest {
 
 
         System.out.println(polindrom);
-        System.out.println(str.equals(polindrom.toString()));
+        System.out.println(str.contentEquals(polindrom));
 
 
 
