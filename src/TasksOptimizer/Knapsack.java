@@ -1,7 +1,7 @@
 package TasksOptimizer;
 
 public class Knapsack {
-    static int knapSack(int W, int wt[], int val[], int n)
+    static int knapSack(int W, int[] wt, int[] val, int n)
     {
         // Base Case
         if (n == 0 || W == 0)
@@ -23,10 +23,10 @@ public class Knapsack {
     }
 
     // Driver code
-    public static void main(String args[])
+    public static void main(String[] args)
     {
-        int profit[] = new int[] { 1, 2, 3 };
-        int weight[] = new int[] { 1, 3, 4 };
+        int[] profit = new int[] { 1, 2, 3 };
+        int[] weight = new int[] { 1, 3, 4 };
         int W = 7;
         int n = profit.length;
         System.out.println(knapSack(W, weight, profit, n));
