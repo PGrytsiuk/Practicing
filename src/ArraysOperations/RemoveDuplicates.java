@@ -1,7 +1,6 @@
 package ArraysOperations;
 
 import java.util.HashSet;
-import java.util.Set;
 
 public class RemoveDuplicates {
 
@@ -16,5 +15,4 @@ public class RemoveDuplicates {
         }
         System.out.println(set);
     }
-
 }

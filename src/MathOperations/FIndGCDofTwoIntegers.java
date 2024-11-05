@@ -15,7 +15,5 @@ public class FIndGCDofTwoIntegers {
 
         }
         System.out.println("The common GCD of two numbers is " + num1);
-
     }
-
 }

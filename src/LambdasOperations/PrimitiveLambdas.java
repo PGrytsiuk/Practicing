@@ -14,7 +14,5 @@ public class PrimitiveLambdas {
         DoubleToIntFunction function = (double value) -> (int)Math.floor(value);
         int pi = function.applyAsInt(Math.PI);
         System.out.println("Pi = "+ pi);
-
     }
-
 }

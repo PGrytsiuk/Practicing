@@ -8,6 +8,5 @@ public class ConvertIntoBinary {
         String binary = Integer.toBinaryString(num);
 
         System.out.println(binary);
-
     }
 }

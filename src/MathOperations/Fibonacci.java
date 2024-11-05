@@ -16,7 +16,5 @@ public class Fibonacci {
             num2=num3;
             System.out.printf(num3 +" ");
         }
-
     }
-    
 }

@@ -9,9 +9,5 @@ public class PolindromTest {
 
         System.out.println(polindrom);
         System.out.println(str.contentEquals(polindrom));
-
-
-
     }
-
 }

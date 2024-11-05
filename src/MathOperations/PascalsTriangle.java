@@ -21,9 +21,6 @@ public class PascalsTriangle {
             }
 
             System.out.println();
-
         }
-
     }
-
 }

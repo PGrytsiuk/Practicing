@@ -64,6 +64,4 @@ public class TasksTriageByValue {
         List<Integer> optimalTasks2 = findOptimalTasks(tasks2, totalTime2);
         System.out.println("Перевірочний кейс 2: " + optimalTasks2); // Очікувано: [3, 2]
     }
-
-
 }
