@@ -34,5 +34,4 @@ public class ChainingLambdas {
         System.out.println("For Hello " + p.test("Hello"));
 
     }
-
 }

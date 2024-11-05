@@ -18,7 +18,5 @@ public class ArmstrongNumber {
             isArmstrong = num == sum;
         System.out.println(isArmstrong);
 
-
     }
-
 }

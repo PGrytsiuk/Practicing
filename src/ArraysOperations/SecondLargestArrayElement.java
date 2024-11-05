@@ -1,8 +1,5 @@
 package ArraysOperations;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
-
 public class SecondLargestArrayElement {
 
     public static void main(String[] args) {
@@ -20,13 +17,7 @@ public class SecondLargestArrayElement {
                 second = num;
 
             }
-
-
         }
         System.out.println(second);
-
-
     }
-
-
 }

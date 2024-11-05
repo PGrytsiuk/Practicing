@@ -23,7 +23,5 @@ public class SomeMapping {
         }
         users.forEach((User u) -> System.out.println(u));
         names.forEach((String  s) -> System.out.println(s));
-
     }
-
 }

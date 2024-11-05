@@ -10,8 +10,6 @@ public class SwapTwoNumbers {
         b = a - b;
         a = a - b;
 
-
         System.out.println("a = " + a + "\n" + "b = " + b);
-
     }
 }

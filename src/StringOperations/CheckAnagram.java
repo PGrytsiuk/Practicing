@@ -18,8 +18,5 @@ public class CheckAnagram {
         Arrays.sort(arr2);
 
         System.out.println(Arrays.equals(arr1, arr2));
-
-
     }
-
 }

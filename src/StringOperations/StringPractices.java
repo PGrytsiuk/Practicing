@@ -28,5 +28,4 @@ public class StringPractices {
         strOperation.deleteCharAt(11);
         System.out.println(strOperation);
     }
-
 }
