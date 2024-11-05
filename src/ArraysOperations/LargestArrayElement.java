@@ -15,6 +15,4 @@ public class LargestArrayElement {
         }
         System.out.println(largest);
     }
-
-
 }

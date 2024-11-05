@@ -35,5 +35,4 @@ public class UserComparator {
         users.sort(cmpAge);
         users.forEach(u -> System.out.println(u));
     }
-
 }

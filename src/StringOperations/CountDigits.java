@@ -8,7 +8,5 @@ public class CountDigits {
         int count =  String.valueOf(num).length();
 
         System.out.println(count);
-
     }
-
 }
