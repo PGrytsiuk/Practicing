@@ -8,11 +8,11 @@ public class SimpleCalculator {
 
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter first number: ");
+        System.out.println("Enter first number and press Enter: ");
         double num1 = scanner.nextDouble();
-        System.out.println("Enter second number");
+        System.out.println("Enter second number and press Enter: ");
         double num2 = scanner.nextDouble();
-        System.out.println("Choose operation +,-,*,/ ");
+        System.out.println("Choose operation +,-,*,/ and press Enter: " );
         char operation = scanner.next().charAt(0);
         double result = switch (operation) {
             case '+' -> num1 + num2;
