@@ -10,14 +10,18 @@ public class SimpleLogin {
         String password = "password";
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter username");
-        String inputUsername = scanner.nextLine();
-        System.out.println("Enter password");
-        String inputPassword = scanner.nextLine();
-        if (username.equals(inputUsername) && password.equals(inputPassword)){
-            System.out.println("Login is successful");
-        }else {
-            System.out.println("Invalid credentials");
+        while(true){
+            System.out.println("Enter username");
+            String inputUsername = scanner.nextLine();
+            System.out.println("Enter password");
+            String inputPassword = scanner.nextLine();
+            if (username.equals(inputUsername) && password.equals(inputPassword)){
+                System.out.println("Login is successful");
+                break;
+            }else {
+                System.out.println("Invalid credentials");
+            }
         }
+        scanner.close();
     }
 }
