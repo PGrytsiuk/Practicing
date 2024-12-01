@@ -1,5 +1,6 @@
 package main.com.arrays_operations;
 
+import java.util.Arrays;
 import java.util.HashSet;
 
 public class RemoveDuplicates {
@@ -14,5 +15,12 @@ public class RemoveDuplicates {
 
         }
         System.out.println(set);
+
+        removeDuplicatesWithStreams(arr);
+    }
+
+    public static void removeDuplicatesWithStreams(int[] arr){
+        int[] array = Arrays.stream(arr).distinct().toArray();
+        System.out.println(Arrays.toString(array));
     }
 }
