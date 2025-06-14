@@ -18,7 +18,7 @@ public class CommonElements {
         for(int num : arr1){
                 set.add(num);
             }
-        for(int num: arr2){
+        for(int num : arr2){
                 if(set.contains(num)){
                 System.out.println(num + " ");
             }

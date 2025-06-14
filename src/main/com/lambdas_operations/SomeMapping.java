@@ -1,6 +1,7 @@
 package main.com.lambdas_operations;
 
 import main.com.user.User;
+import org.junit.Assert;
 
 import java.util.ArrayList;
 import java.util.List;
