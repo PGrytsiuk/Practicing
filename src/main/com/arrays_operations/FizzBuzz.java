@@ -5,10 +5,10 @@ public class FizzBuzz {
     public static void main(String[] args) {
 
         int[] arr = {1, 2, 3, 4, 5, 15, 16, 18, 20};
-        FizzBuzz(arr);
+        fizzBuzz(arr);
     }
 
-    public static void FizzBuzz(int[] arr)
+    public static void fizzBuzz(int[] arr)
     {
         for(int num : arr)
         {
