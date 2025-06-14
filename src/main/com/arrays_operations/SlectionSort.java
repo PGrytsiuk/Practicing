@@ -1,7 +1,6 @@
 package main.com.arrays_operations;
 
 public class SlectionSort {
-
     public static void main(String[] args) {
 
         int[] arr = {66, 25, 12, 22, 11};

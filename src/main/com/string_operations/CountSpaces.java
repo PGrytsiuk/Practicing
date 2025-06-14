@@ -5,12 +5,13 @@ public class CountSpaces {
     public static void main(String[] args) {
 
         String test1 = "Hello world";
-        String test2 = "I love automation";
+        String test2 = "I love automation test test";
         String test3 = "Test test test test";
 
         countSpaces1(test1);
         countSpaces2(test2);
         countSpaceswithStreams(test3);
+        countSPaces3(test2);
 
     }
 
@@ -33,8 +34,19 @@ public class CountSpaces {
         int index = test2.indexOf(' ');
 
         while (index >= 0){
-            System.out.println("space found at index " + index);
-            index = test2.indexOf(' ', index + 1);
+            System.out.println("space found at index: " + index);
+          index = test2.indexOf(' ', index + 1);
         }
+    }
+
+    public  static void countSPaces3(String test2)
+    {
+        int count = 0;
+        for (int i = 0; i < test2.length(); i++) {
+            if (test2.indexOf(" ", i) == i) {
+                count++;
+            }
+        }
+        System.out.println("Number of spaces in the string: " + count);
     }
 }
